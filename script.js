@@ -1,7 +1,7 @@
 function createPin() {
 
  document.getElementById("showPin").value =Math.floor(1000 + Math.random()*9000) ;
- display.call();
+ deleteAll.call();
 
 }
 function insertNumber(number) {
